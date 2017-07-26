@@ -25,3 +25,7 @@ composer require openstream/mage2-locale-de-ch
 rm pub/static/frontend/Magento/luma/de_CH/js-translation.json
 php bin/magento setup:static-content:deploy de_CH
 ```
+
+# Unterschiede de_DE und de_CH
+* ss statt ß
+* Region/Bundesland/Kanton statt Region/Bundesland
