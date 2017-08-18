@@ -29,3 +29,25 @@ php bin/magento setup:static-content:deploy de_CH
 # Unterschiede de_DE und de_CH
 * ss statt ß
 * Region/Bundesland/Kanton statt Region/Bundesland
+
+# Aktualisieren vom Upstream
+Sicher stellen, dass der upstream remote korrekt konfiguriert ist, sollte so aussehen:
+```bash
+$ git remote -v
+origin	git@github.com:openstream/Magento2_German_LocalePack_de_CH.git (fetch)
+origin	git@github.com:openstream/Magento2_German_LocalePack_de_CH.git (push)
+upstream	git@github.com:splendidinternet/Magento2_German_LocalePack_de_DE.git (fetch)
+upstream	git@github.com:splendidinternet/Magento2_German_LocalePack_de_DE.git (push)
+```
+Dann folgende Befehle ausführen:
+```bash
+git fetch upstream
+git merge upstream/master
+```
+Wenn nötig müssen Konflikte behoben werden bevor man pushen kann.
+
+Nicht vergessen die neuen Tags vom upstream zu holen und auch mit zu pushen, sonst gibt's Probleme mit der Composer-Versionierung!
+```bash
+git pull origin master --tags
+git push --tags
+```
