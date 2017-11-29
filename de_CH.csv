@@ -3198,7 +3198,7 @@ Entity Type,Datensatztyp,,
 Entity Type Code,Entity-Typ-Code,,
 Entity type model '%1' is not found,"Entitätstyp-Modell ""%1"" nicht gefunden",,
 Entity type model must be an instance of ' 'Magento\CatalogImportExport\Model\Import\Product\Type\AbstractType,"Entity-Typ-Model muss eine Instanz von ""\Magento\CatalogImportExport\Model\Import\Product\Type\AbstractType"" sein.",,
-Entity type model must be an instance of '%1',Der Ausführungstyp (entity type model) muß eine Instanz von  '%1',module,Magento_CatalogImportExport
+Entity type model must be an instance of '%1',Der Ausführungstyp (entity type model) muss eine Instanz von  '%1',module,Magento_CatalogImportExport
 Entity type model must be an instance of \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType,Entitätstyp-Modell muss eine Instanz von \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType sein,,
 Entity type model must be an instance of \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType,Der Ausführungstyp (entity type model) muss eine Instanz von \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType sein.,module,Magento_AdvancedPricingImportExport
 Entity type model must be an instance of \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType,Der Ausführungstyp (entity type model) muss eine Instanz von \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType sein.,module,Magento_CatalogImportExport
@@ -8820,7 +8820,7 @@ Titles and Descriptions Per Store View,Titel und Beschreibungen pro Store View,,
 To,Bis,,
 to,An,,
 "To apply changes you should fill in hidden required ""%1"" field","Um die Änderungen zu übernehmen, sollten Sie das versteckte Pflichtfeld ""%1"" ausfüllen.",,
-"To apply the discount on prices including tax and apply the tax after discount, set Catalog Prices to “Including Tax”. ","Um den Preisnachlass auf Preisen einschließlich der Steuer anzuwenden und die Steuer nach dem Preisnachlass anzuwenden, legen Sie Katalogpreise “Einschließlich der Steuer” fest.",module,Magento_Tax
+"To apply the discount on prices including tax and apply the tax after discount, set Catalog Prices to “Including Tax”. ","Um den Preisnachlass auf Preisen einschliesslich der Steuer anzuwenden und die Steuer nach dem Preisnachlass anzuwenden, legen Sie Katalogpreise “Einschliesslich der Steuer” fest.",module,Magento_Tax
 "To begin receiving the newsletter, you must first confirm your subscription by clicking on the following link:","Um den Newsletter zu empfangen, müssen Sie zunächst Ihr Abonnement bestätigen, indem Sie auf den folgenden Link klicken:",,
 "To check out, please sign in using your email address.","Um zur Kasse zu gehen, melden Sie sich bitte mit Ihrer E-Mail-Adresse an.",,
 "To check out, please sign in with your email address.","Um zur Kasse zu gehen, melden Sie sich bitte mit Ihrer E-Mail-Adresse an.",,
@@ -9474,7 +9474,7 @@ Warning tax discount configuration might result in different discounts than a cu
 WARNING:,WARNUNG:,,
 "Warning: necessary space for backup is ' . . 'MB, but your free disc space is ' . . 'MB.","Achtung: Notwendiger Speicherplatz für das Backup: ' . . ' MB,  Freier Speicherplatz: ' . . ' MB",,
 Warning: No message defined for %s,Warnung: Keine Nachricht definiert für %s,,
-"Warning: To apply the discount on prices including tax and apply the tax after discount, set Catalog Prices to “Including Tax”.","Warnung: Um den Preisnachlass auf Preisen einschließlich der Steuer anzuwenden und die Steuer nach dem Preisnachlass anzuwenden, legen Sie Katalogpreise “Einschließlich der Steuer” fest.",module,Magento_Tax
+"Warning: To apply the discount on prices including tax and apply the tax after discount, set Catalog Prices to “Including Tax”.","Warnung: Um den Preisnachlass auf Preisen einschliesslich der Steuer anzuwenden und die Steuer nach dem Preisnachlass anzuwenden, legen Sie Katalogpreise “Einschliesslich der Steuer” fest.",module,Magento_Tax
 Warning! Enabling this feature is not recommended on production environments because it represents a potential security risk.,"Warnung! Aktivierung dieser Funktion wird auf Produktionsumgebungen nicht empfohlen, weil es ein potenzielles Sicherheitsrisiko darstellt.",,
 Warning! Integrations not using HTTPS are insecure and potentially expose private or personally identifiable information,"Warnung! Integrationen, die nicht HTTPS verwenden sind unsicher und geben möglicherweise private oder persönliche Informationen preis.",,
 Warning!\r\nThis action will remove this user from already assigned role\r\nAre you sure?,Achtung! Diese Aktion wird diesen Benutzer von bereits zugewiesenen Rollen entfernen. Sind Sie sicher?,,
