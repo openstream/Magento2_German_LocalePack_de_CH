@@ -372,6 +372,8 @@
 %1 isn't allowed,%1 ist nicht erlaubt.,,
 %1 Item,%1 Artikel,,
 %1 Item(s),%1 Artikel,,
+%1 Item,%1 Eintrag,module,Magento_Theme
+%1 Item(s),%1 Einträge,module,Magento_Theme
 %1 item(s) have been added to the gift registry.,%1 Artikel wurde(n) der Geschenkeliste hinzugefügt.,,
 %1 item(s) need your attention.,%1 Artikel benötigen Ihre Aufmerksamkeit,,
 %1 items,%1 Artikel,,
@@ -491,13 +493,13 @@
 "%value%' looks like a local network name, which is not an acceptable format.","%value% sieht wie der Name eines lokalen Netzwerks aus, was kein akzeptiertes Format ist.",module,Magento_Customer
 "%value%' looks like a local network name, which is not an acceptable format.",%value-%' sieht wie ein lokaler Netzwerksname in einem inakzeptablen Format aus.,module,Magento_Eav
 "%value%' looks like an IP address, which is not an acceptable format.","%value% sieht wie eine IP-Adresse aus, was kein akzeptiertes Format ist.",,
-"%value%' looks like an IP address, which is not an acceptable format.",%vakue%' sieht nach einer IP-Addresse aus. Dies ist kein akzeptiertes Format.,,
+"%value%' looks like an IP address, which is not an acceptable format.",%vakue%' sieht nach einer IP-Adresse aus. Dies ist kein akzeptiertes Format.,,
 "%value%' looks like an IP address, which is not an acceptable format.","%value% sieht wie eine IP-Adresse aus, was kein akzeptiertes Format ist.",module,Magento_Customer
-"%value%' looks like an IP address, which is not an acceptable format.",%vakue%' sieht nach einer IP-Addresse aus. Dies ist kein akzeptiertes Format.,module,Magento_Eav
+"%value%' looks like an IP address, which is not an acceptable format.",%vakue%' sieht nach einer IP-Adresse aus. Dies ist kein akzeptiertes Format.,module,Magento_Eav
 "%value%' looks like an IP address, which is not an acceptable format.","%value% sieht wie eine IP-Adresse aus, was kein akzeptiertes Format ist.",module,Magento_Customer
-"%value%' looks like an IP address, which is not an acceptable format.",%value%' sieht nach einer IP-Addresse aus. Dies ist kein akzeptiertes Format.,module,Magento_Eav
+"%value%' looks like an IP address, which is not an acceptable format.",%value%' sieht nach einer IP-Adresse aus. Dies ist kein akzeptiertes Format.,module,Magento_Eav
 "%value%' looks like an IP address, which is not an acceptable format.","%value% sieht wie eine IP-Adresse aus, was kein akzeptiertes Format ist.",module,Magento_Customer
-"%value%' looks like an IP address, which is not an acceptable format.",%value%' sieht nach einer IP-Addresse aus. Dies ist kein akzeptiertes Format.,module,Magento_Eav
+"%value%' looks like an IP address, which is not an acceptable format.",%value%' sieht nach einer IP-Adresse aus. Dies ist kein akzeptiertes Format.,module,Magento_Eav
 "<a href=""""http://www.magentocommerce.com/paypal"""">Start accepting payments via PayPal!</a>","<a href=""""http://www.magentocommerce.com/paypal"""">Zahlungen via PayPal akzeptieren!</a>",,
 "<a href=""""https://financing.paypal.com/ppfinportal/content/whyUseFinancing"""" target=""""_blank"""">Why Advertise Financing?</a><br/>","<a href=""""https://financing.paypal.com/ppfinportal/content/whyUseFinancing"""" target=""""_blank"""">Warum für Finanzierung werben?</a><br/>",,
 "<a href=""""https:/www.paypal.com/webapps/mpp/promotional-financing"""" target=""""_blank"""">Learn More</a>","<a href=""""https:/www.paypal.com/webapps/mpp/promotional-financing"""" target=""""_blank"""">Mehr erfahren</a>",,
@@ -566,7 +568,7 @@ $attributes must be an array,$attributes muss ein Array sein.,,
 3 columns,3 Spalten,,
 3 Day Freight,3 Tage-Fracht,,
 3 Day Select,3 Day Select,,
-30 minutes,30 MInuten,,
+30 minutes,30 Minuten,,
 3D Secure Verification,3D Secure-Verifizierung,,
 3d Secure Verification,3-D-Secure Verifizierung,,
 3D Secure Verification Settings,Einstellungen der 3D Secure-Verifizierung,,
@@ -880,7 +882,7 @@ Additional data,Zusätzliche Daten,,
 Additional Options,Weitere Optionen,,
 Additional Settings,Zusätzliche Einstellungen,,
 Address,Adresse,,
-Address %1 <span>of %2</span>,Addresse %1 <span>von %2</span>,,
+Address %1 <span>of %2</span>,Adresse %1 <span>von %2</span>,,
 Address Attributes,Adressattribute,,
 Address AVS check,Adressverifizierung (AVS),,
 Address Book,Adressbuch,,
@@ -1068,7 +1070,7 @@ Amount doesn't match.,Betrag stimmt nicht überein.,,
 Amount in %1,Betrag in %1,,
 Amount: %1.,Menge: %1.,,
 Amounts,Beträge,,
-An amount of %1 will be captured after being approved at the payment gateway.,"Eine Menge von %1 wird erfasst, nachdem es im Zahlungs-Gateway zugelassen wurde.",,
+An amount of %1 will be captured after being approved at the payment gateway.,"Der Betrag von %1 wird erfasst, nachdem es im Zahlungs-Gateway zugelassen wurde.",,
 An amount on which to change the balance,"Ein Betrag, um den der Saldo verändert wird.",,
 An array expected: %1,Array erwartet: %1,,
 An attribute code must be fewer than %1 characters.,Ein Attributcode muss weniger als %1 Zeichen enthalten.,,
@@ -1397,9 +1399,9 @@ Authorize Only,Nur autorisieren,,
 Authorize.net Direct Post,Authorize.net Direkter Post,,
 Authorize.Net Transaction ID %1.,Authorize.Net Transaktions-ID %1,,
 Authorized,Autorisiert,,
-Authorized amount of %1,Autorisierte Menge von %1,,
-Authorized amount of %1.,Genehmigte Menge von %1.,module,Magento_Sales
-Authorized amount of %1. Order is suspended as its authorizing amount %1 is suspected to be fraudulent.,"Autorisierte Menge von %1 %1. Die Bestellung wurde aufgehoben, weil die autorisierte Menge %1 als betrügerisch verdächtigt wird.",module,Magento_Sales
+Authorized amount of %1,Autorisierter Betrag von %1,,
+Authorized amount of %1.,Autorisierter Betrag von %1.,module,Magento_Sales
+Authorized amount of %1. Order is suspended as its authorizing amount %1 is suspected to be fraudulent.,"Autorisierter Betrag von %1 %1. Die Bestellung wurde aufgehoben, weil der autorisierte Betrag %1 als betrügerisch verdächtigt wird.",module,Magento_Sales
 Authorized Qty,Autorisierte Anzahl,,
 Auto,Automatisch,,
 Auto Generated Specific Coupon Codes,Automatisch generierte Gutscheincodes,,
@@ -1754,9 +1756,9 @@ Capture,Erfassen,,
 Capture action,Aktion erfassen,,
 Capture Offline,Offline erfassen,,
 Capture Online,Online erfassen,,
-Captured,Aufgenommen,,
-Captured amount of %1 online,Erfasste Menge von %1 online,,
-Captured amount of %1 online.,Erfasste Menge von %1 online,module,Magento_Sales
+Captured,Erfasst,,
+Captured amount of %1 online,Erfasster Betrag von %1 online,,
+Captured amount of %1 online.,Erfasster Betrag von %1 online,module,Magento_Sales
 Card BIN or authorization risk. Risk factors a e related to credit card BIN and/or card authorization checks,Kreditkartennummer- oder Autorisierungsrisiko. Risikofaktoren beziehen sich auf die Kredidkartennummer und/oder Kartenautorisierungschecks.,,
 Card Code Response,Kartencode-Antwort,,
 Card expiry date,Kartenablaufdatum,,
@@ -2054,21 +2056,20 @@ Configurable Product Image,Konfigurierbares Produktbild,,
 "Configurable products allow customers to choose options (Ex: shirt color).
             You need to create a simple product for each configuration (Ex: a product for each color).","Konfigurierbare Produkte erlauben Kunden, Optionen zu wählen (z. B.: Hemdfarbe).
             Sie müssen ein einfaches Produkt für jede Konfiguration schaffen (z. B.: ein Produkt für jede Farbe).",module,Magento_ConfigurableProduct
-"Configurable products allow customers to choose options (Ex: shirt color).
-Connecting to server,Verbindet zum Server
-Connection failed! Test again?,Verbindung fehlgeschlagen! Erneut versuchen?
-Connection Type,Verbindungstyp
-Constant Value,Konstanter Wert
-Contact Email Address,Kontakt-E-Mail-Adresse
-Contact Name,Kontaktname
-Container Id,Container-ID
-Continue Processing,Bearbeitung fortfahren
-Conversion Rate,Umrechnungskurs
-Conversion Rate Report,Umrechnungskursbericht
-Converting Invitation to Customer,Konvertiert Einladung zum Kunden
-Converting Invitation to Order,Konvertiert Einladung zur Bestellung
-Copy,Kopieren
-&copy; Magento Inc.","&copy; Magento Inc.""",,
+Connecting to server,Verbindet zum Server,,
+Connection failed! Test again?,Verbindung fehlgeschlagen! Erneut versuchen?,,
+Connection Type,Verbindungstyp,,
+Constant Value,Konstanter Wert,,
+Contact Email Address,Kontakt-E-Mail-Adresse,,
+Contact Name,Kontaktname,,
+Container Id,Container-ID,,
+Continue Processing,Bearbeitung fortfahren,,
+Conversion Rate,Umrechnungskurs,,
+Conversion Rate Report,Umrechnungskursbericht,,
+Converting Invitation to Customer,Konvertiert Einladung zum Kunden,,
+Converting Invitation to Order,Konvertiert Einladung zur Bestellung,,
+Copy,Kopieren,,
+"&copy; Magento Inc.","&copy; Magento Inc.",,
 Configurable products allow customers to choose options (Ex: shirt color). You need to create a simple product for each configuration (Ex: a product for each color).,Konfigurierbare Produkte erlauben Kunden die Wahl zwischen Optionen (z. B. die Farbe eines T-Shirts). Es muss für jede Konfiguration ein einfaches Produkt erstellt werden.,,
 Configurable products allow customers to choose options (Ex: shirt color). You need to create a simple product for each configuration (Ex: a product for each color).,Konfigurierbare Produkte erlauben Kunden die Wahl zwischen Optionen (z. B. die Farbe eines T-Shirts). Es muss für jede Konfiguration ein einfaches Produkt erstellt werden.,module,Magento_ConfigurableProduct
 Configurable products allow customers to choose options (Ex: shirt color).You need to create a simple product for each configuration (Ex: a product for each color).,"Konfigurierbare Produkte erlauben es Kunden, Optionen auszuwählen (z.B. Farbe eines Shirts). Sie müssen für jede Konfiguration ein einfaches Produkt erstellen (z.B. ein Produkt für jede Farbe).",,
@@ -2964,7 +2965,7 @@ Edit Newsletter,Newsletter ändern,,
 Edit Newsletter Template,Newsletter-Vorlage bearbeiten,,
 Edit Order,Bestellung bearbeiten,,
 Edit Order #%1,Bestellung #%1 bearbeiten,,
-Edit Order %1 %2 Address,Bestellung %1 %2 Addresse bearbeiten,,
+Edit Order %1 %2 Address,Bestellung %1 %2 Adresse bearbeiten,,
 Edit Order Status,Bestellstatus bearbeiten,,
 Edit Page,Seite bearbeiten,,
 Edit Page '%1',"Seite ""%1"" bearbeiten",,
@@ -4237,22 +4238,15 @@ Invalid date,Ungültiges Datum,,
 Invalid date specified,Ungültiges Datum angegeben,,
 Invalid default date,Ungültiges Standarddatum,,
 Invalid default decimal value,Ungültiger Standard-Dezimalwert,,
-"Invalid Document 
-Invalid domain name: 
-Invalid order
-Invalid product list type
-Invalid RMA
-Invalid rotation mode type
-Invalid value. Because the request contains an unexpected value a default value was substituted. Although the transact on can still be processed examine the request carefully for abnormalities in the order""","Ungültiges Dokument
-Ungültiger Domain-Name:
-Ungültige Bestellung
-Ungültiger Produktlistentyp
-Ungültige RMA-Nummer
-Ungültiger Rotationsmodustyp
-Ungültiger Wert. Weil die Anfrage einen unerwarteten Wert enthält, wurde stattdessen ein Standardwert verwendet. Obwohl die Transaktion bearbeitet werden kann, überprüfen Sie die Anfrage sorgfältig nach Abweichungen in der Bestellung. ",,
+Invalid Document,Ungültiges Dokument,,
+Invalid domain name:,Ungültige Domain:,,
+Invalid order,Ungültige Bestellung,,
+Invalid product list type,Ungültiger Produktlistentyp,,
+Invalid RMA,Ungültige RMA-Nummer,,
+Invalid rotation mode type,Ungültiger Rotationsmodustyp,,
+"Invalid value. Because the request contains an unexpected value a default value was substituted. Although the transact on can still be processed examine the request carefully for abnormalities in the order","Ungültiger Wert. Weil die Anfrage einen unerwarteten Wert enthält, wurde stattdessen ein Standardwert verwendet. Obwohl die Transaktion bearbeitet werden kann, überprüfen Sie die Anfrage sorgfältig nach Abweichungen in der Bestellung.",,
 Invalid Document %1%2,Ungültiges Dokument: %1%2,,
 Invalid Document: %1%2 Error: %3,Ungültiges Dokument: %1%2 Fehler: %3,,
-Invalid domain name: ' .,Ungültiger Domain-Name:,,
 Invalid domain name: %1,Ungültiger Domainname: %1,module,Magento_Cookie
 Invalid download link type.,Ungültiger Download-Link-Typ.,,
 Invalid EAV attribute,Ungültiges EAV-Attribut,,
@@ -4821,7 +4815,7 @@ May start with {{unsecure_base_url}} placeholder.,Kann mit {{unsecure_base_url}}
 MD5 Secret for Transactions,MD5 Secret for Transactions,,
 "Media (.avi, .flv, .swf)","Medien (.avi, .flv, .swf)",,
 "Media (.avi, .flv, .swf)","Medien (.avi, .flv, .swf)",module,Magento_Backend
-Media Gallery,Mediengallerie,module,Magento_Cms
+Media Gallery,Mediengalerie,module,Magento_Cms
 Media Gallery converter should be an instance of EntryConverterInterface.,Mediengalerie-Konverter sollte eine Instanz von EntryConverterInterface sein.,,
 Media Image,Medienbild,,
 Media Mail,Media Mail,,
@@ -4873,7 +4867,7 @@ Method Name,Methodenname,,
 Method Title,Versandmethode,,
 Middle Name/Initial,Zweiter Vorname,,
 Min Time Between Password Reset Requests,Mindestdauer zwischen Passwort-Reset-Anfragen,,
-Minification is not applied in developer mode.,Minification wir im Entwicklermodus nicht angewendet.,module,Magento_Backend
+Minification is not applied in developer mode.,Minification wird im Entwicklermodus nicht angewendet.,module,Magento_Backend
 Minify CSS Files,CSS-Dateien verkürzen,,
 Minify Html,HTML verkürzen,,
 Minify JavaScript Files,JavaScript-Dateien verkürzen,,
@@ -4977,7 +4971,7 @@ My Wish List,Mein Wunschzettel,,
 My Wish List Link,"""Mein Merkzettel""-Verlinkung",,
 My Wish Lists,Meine Wunschzettel,,
 My Wish Lists Link,Link zu Meine Wunschzettel,,
-"MySQL Message Queue Cleanup - all the times are in minutes. Use ""0"" if you want to skip automatic clearance","MySQL-Nachrichtenwarteschlagen-Bereinigung - alle Zeiten sind in MInuten. Verwenden Sie ""0"" , um die automatische Bereinigung zu überspringen.",,
+"MySQL Message Queue Cleanup - all the times are in minutes. Use ""0"" if you want to skip automatic clearance","MySQL-Nachrichtenwarteschlagen-Bereinigung - alle Zeiten sind in Minuten. Verwenden Sie ""0"" , um die automatische Bereinigung zu überspringen.",,
 N/A,Nicht verfügbar,,
 "N/A. Address not checked, or acquirer had no response. Service not available",N/A. Adresse nicht überprüft oder Erwerber hatte keine Antwort. Dienst nicht verfügbar,,
 N/A. Global Unavailable,N/A. Global nicht verfügbar,,
@@ -4995,7 +4989,6 @@ N/A. The merchant did not provide AVS information,N/A. Der Händler hat keine AV
 N/A. The merchant has not implemented CVV2 code handling,N/A. Der Händler hat CVV2-Code-Handling nicht implementiert,,
 N/A. Unavailable,N/A. Nicht verfügber,,
 Name,Name,,
-name,Name der Regel,,
 Name and Address Options,Namens- und Adress-Optionen,,
 Name in %1,Name in %1,,
 Name is required,Name wird benötigt,,
@@ -6112,6 +6105,7 @@ Please enter the country.,Bitte geben Sie das Land ein.,,
 Please enter the first name.,Bitte geben Sie den Vornamen ein.,,
 Please enter the last name.,Bitte geben Sie den Nachnamen ein.,,
 Please enter the letters from the image,Bitte geben Sie die Buchstaben aus dem Bild ein.,,
+Please enter the letters and numbers from the image,Bitte geben Sie die Buchstaben und Zahlen aus dem Bild ein.,,
 Please enter the message.,Bitte geben Sie die Nachricht ein,,
 Please enter the password to confirm rollback.,"Bitte geben Sie das Passwort ein, um das Rollback zu bestätigen.",,
 Please enter the phone number.,Bitte geben Sie die Telefonnummer ein.,,
@@ -6275,7 +6269,8 @@ Please specify time required option(s).,Bitte geben Sie die Pflichtoption(en) de
 Please try again later,Bitte versuchen Sie es später erneut.,,
 Please try again with another form of payment.,Bitte versuchen Sie es noch einmal mit einer anderen Zahlart.,module,Magento_Braintree
 Please try to sign out and sign in again.,"Bitte versuchen Sie, sich neu anzumelden.",,
-Please type the letters below,Bitte geben Sie die Buchstaben unten ein.,,
+Please type the letters below,Bitte geben Sie die Buchstaben unten ein,,
+Please type the letters and numbers below,Bitte geben Sie die Buchstaben und Zahlen unten ein,,
 Please update order data to get shipping methods and rates,"Bitte aktualisieren Sie Ihre Bestelldaten, um Versandarten und -Preise zu erhalten",,
 "Please upgrade your database: Run ""bin/magento setup:upgrade"" from the Magento root directory. %1The following modules are outdated:%2%3","Bitte die Datenbank aktualisieren: Führen Sie ""bin/magento setup:upgrade"" im Magento-Rootverzeichnis aus. %1 Die folgenden Module sind veraltet: %2%3",,
 Please use a four-digit year format.,Bitte verwenden Sie ein vierstelliges Jahresformat.,,
@@ -6580,7 +6575,7 @@ Products subselection,Produkte-Unterauswahl,,
 Products to Display,Anzuzeigende Produkte,,
 Products to Match,Produkte zum Vergleichen,,
 Products will still be shown by direct product URLs.,Produkte werden weiterhin durch direkte Produkt-URLs angezeigt.,,
-ProductSku should be specified,Produkt SKU muss angegeen werden,module,Magento_Catalog
+ProductSku should be specified,Produkt SKU muss angegeben werden,module,Magento_Catalog
 Profile ID,Profil-ID,,
 Profit,Gewinn,,
 Promo,Promo,,
@@ -6599,7 +6594,7 @@ Provided downloadable sample is not related to given product.,Das vorgesehene he
 Provided file content must be valid base64 encoded data.,Der vorgesehene Dateiinhalt muss mit Base64-codierten Daten gültig sein.,,
 Provided file name contains forbidden characters.,Der vorgesehene Dateiname enthält ungültige Zeichen.,,
 Provided form does not exist,Angegebens Formular existiert nicht.,,
-Provided image name contains forbidden characters.,Der angegebene BIldname enthält ungültige Zeichen.,,
+Provided image name contains forbidden characters.,Der angegebene Bildname enthält ungültige Zeichen.,,
 Provided link information is invalid.,Angegebene Link-Information ist ungültig.,,
 "Provided link type ""%1"" does not exist","Angegebener Link-Typ ""%1"" existiert nicht.",,
 Provided product must be type 'downloadable'.,Das Produkt muss 'downloadbar' sein.,module,Magento_Downloadable
@@ -6783,10 +6778,10 @@ Registered,Registriert,,
 Registered a Void notification.,Eine Aufhebungs-Benachrichtigung wurde registriert.,,
 Registered as customer,Als Kunde registriert,,
 Registered Customers,Registrierte Kunden,,
-Registered notification about captured amount of %1.,Registrierte Benachrichtigung über erfasste Menge %1.,,
-Registered notification about refunded amount of %1.,Registrierte Benachrichtigung über erstattete Menge von %1.,,
-Registered update about approved payment.,Registriertes Update über genehmigte Zahlung.,,
-Registered update about denied payment.,Registriertes Update über verweigerte Zahlung.,,
+Registered notification about captured amount of %1.,Benachrichtigung über erfassten Betrag von %1 erhalten.,,
+Registered notification about refunded amount of %1.,Benachrichtigung über erstatteten Betrag von %1 erhalten.,,
+Registered update about approved payment.,Aktualisierung einer genehmigten Zahlung erhalten.,,
+Registered update about denied payment.,Aktualisierung einer verweigerten Zahlung erhalten.,,
 Registrant,Registrant,,
 Registrant Email,Registranten-E-Mail,,
 Registrant Email Search,Registranten-E-Mail-Suche,,
@@ -7222,8 +7217,7 @@ Search Results,Suchergebnisse,,
 Search results for: '%1',"Suchergebnisse für: ""%1""",,
 Search Settings,Sucheinstellungen,,
 Search String,Suchbegriff,,
-"Search strings are either normal strings or regular exceptions (PCRE). They are matched in the same order as entered. 
-Examples: Firefox: /^mozilla/i","Suchbegriffe sind entweder normale Zeichenketten oder reguläre Ausdrücke (PCRE). Sie werden in der Reihenfolge verglichen, wie sie eingegeben werden. Beispiele: Firefox: /^mozilla/i",,
+"Search strings are either normal strings or regular exceptions (PCRE). They are matched in the same order as entered. Examples: Firefox: /^mozilla/i","Suchbegriffe sind entweder normale Zeichenketten oder reguläre Ausdrücke (PCRE). Sie werden in der Reihenfolge verglichen, wie sie eingegeben werden. Beispiele: Firefox: /^mozilla/i",,
 "Search strings are either normal strings or regular exceptions (PCRE). They are matched in the same order as entered. Examples:<br /><span style=""""font-family:monospace"""">Firefox<br />/^mozilla/i</span>","Suchbegriffe sind entweder normale Strings oder reguläre Ausnahmen (PCRE). Sie werden in der gleichen Reihenfolge verglichen wie eingegeben. Beispiele: <br /> <span style = ""font-family: monospace""> Firefox <br />/^mozilla/i</span>",,
 "Search strings are either normal strings or regular exceptions (PCRE). They are matched in the same order as entered. Examples:<br /><span style=""font-family:monospace"">Firefox<br />/^mozilla/i</span>","Suchbegriffe sind entweder normale Strings oder reguläre Ausnahmen (PCRE). Sie werden in der gleichen Reihenfolge verglichen wie eingegeben. Beispiele: <br /> <span style = ""font-family: monospace""> Firefox <br />/^mozilla/i</span>",,
 Search Suggestions Count,Anzahl der Suchvorschläge,,
@@ -7939,7 +7933,7 @@ Store Credit Update Email Template,Shopguthaben-Aktualisierungsmail-Vorlage,,
 Store Design,Shopdesign,,
 Store Design Schedule,Shopdesign-Zeitplan,,
 Store Email Addresses,Store-E-Mail-Adressen,,
-Store Email Addresses Section,Store Email Addresses Section,module,Magento_Config
+Store Email Addresses Section,Shop E-Mail-Adressen Bereich,module,Magento_Config
 Store Hours,Geschäftszeiten,,
 Store Hours of Operation,Shop-Geschäftszeiten,,
 Store Information,Shopinformationen,,
@@ -8212,7 +8206,7 @@ The attribute model is not defined.,Das Attributmodell ist nicht definiert.,,
 The attribute no longer exists.,Das Attribut existiert nicht mehr.,,
 The attribute set has been removed.,Das Attributset wurde gelöscht.,,
 The authorize action is not available.,Die Autorisierungs-Aktion ist nicht verfügbar.,,
-The authorized amount is %1.,Die genehmigte Menge ist %1.,,
+The authorized amount is %1.,Der autorisierte Betrag beträgt %1.,,
 The background color for the checkout page around the header and payment form.,Die Hintergrundfarbe der Checkout-Seite rund um den Header und das Zahlungsformular.,,
 The background color for the checkout page around the header and payment form.,Die Hintergrundfarbe für die Checkout-Seite rund um den Header und das Zahlungsformular.,,
 The background color for the checkout page around the header and payment form.,Die Hintergrundfarbe für die Check-Out-Seite um den Header und die Zahlungsmethoden.,,
@@ -8378,7 +8372,7 @@ The message has been marked as Read.,Die Nachricht wurde als gelesen markiert.,,
 The message has been removed.,Die Nachricht wurde entfernt.,,
 The most money available to refund is %1.,Der maximal zur Verfügung stehende Betrag der Rückerstattung ist %1.,,
 The most you may purchase is %1.,Die Höchstmenge ist %1.,,
-"The New Relic integration requires the newrelic-php5 agent, which is not installed. More 
+"The New Relic integration requires the newrelic-php5 agent, which is not installed. More
                         information on installing the agent is available <a target=""_blank"" href=""%1"">here</a>.","""New Relic Integration benötigt den newrelic-php5 Agenten, der nicht installiert ist. Mehr Informationen über die Installation vom Agenten <a target=""_blank"" href=""%1"">hier</a>.",module,Magento_NewRelicReporting
 "The New Relic integration requires the newrelic-php5 agent, which is not installed. More information on installing the agent is available <a target=""_blank"" href=""%1"">here</a>.","Die New Relic-Integration erfordert den newrelic-php5 Stellvertreter, der nicht installiert ist. Weitere Informationen zur Installation <a target=""_blank"" href=""%1"">hier</a>.",,
 The newsletter template has been deleted.,Die Newsletter-Vorlage wurde gelöscht.,,
@@ -8718,7 +8712,7 @@ This integration no longer exists.,Diese Integration ist nicht mehr vorhanden.,,
 This invitation is not valid.,Diese Einladung ist nicht gültig.,,
 This is a required field.,Dies ist ein Pflichtfeld,,
 This is a required option.,Dies ist eine erforderliche Option.,,
-This is an invalid subscription confirmation code.,Das ein ungültiger Abonnement Bestätigungscode.,,
+This is an invalid subscription confirmation code.,Der Abonnement Bestätigungscode ist ungültig.,,
 This is an invalid subscription ID.,Dies ist eine ungültige Abonnement-ID,,
 This is demo store. No orders will be fulfilled.,Dies ist eine Demo-Installation. Es werden keine Aufträge erfüllt.,,
 This is located by navigating to Events -> Deployments from the New Relic APM website,Dies ist unter Events -> Bereitstellungen der New Relic APM Website zu finden,,
@@ -9409,8 +9403,8 @@ View Details,Details ,,
 View Full Size,Originalgröße anzeigen,,
 View Gift Registry %1,Geschenkeliste %1 ansehen,,
 View Invitation for %1 (ID: %2),Einladung für %1 (ID: %2) ansehen,,
-View Memo,Notiz anzeigen,,
-View Memo for #%1,Notiz anzeigen für #%1,,
+View Memo,Gutschrift anzeigen,,
+View Memo for #%1,Gutschrift anzeigen für #%1,,
 View Newsletter,Newsletter anzeigen,,
 View Order,Bestellung ansehen,,
 View past orders,Letzte Bestellungen anzusehen,,
@@ -9464,13 +9458,12 @@ Warning tax configuration can result in rounding errors.,Warnung Steuerkonfigura
 "Warning tax discount configuration might result in different discounts
                                 than a customer might expect. ","Warnung: Steuervergünstigungs-Einstellungen können zu anderen Nachlässen führen
                                 als der Kunde erwarten würde. ",module,Magento_Tax
-"Warning tax discount configuration might result in different discounts
-was,war
-was not,war nicht
-We archived %1 order(s).,Wir haben %1 Bestellung(en) archiviert.
-We authorized your Return request.,Wir haben Ihre Rückgabe-Anfrage authorisiert.
-Website Closed,Webseite geschlossen
-Website code may only contain letters (a-z) numbers (0-9) or underscore (_) ' ' and the first character must be a letter.""","Webseitencode darf nur aus Buchstaben (a-z), Nummern (0-9) oder Unterschrichen(_) bestehen. Das erste Zeichen muss ein Buchstabe sein.",,
+was,war,,
+was not,war nicht,,
+We archived %1 order(s).,Wir haben %1 Bestellung(en) archiviert.,,
+We authorized your Return request.,Wir haben Ihre Rückgabe-Anfrage authorisiert.,,
+Website Closed,Webseite geschlossen,,
+"Website code may only contain letters (a-z) numbers (0-9) or underscore (_) ' ' and the first character must be a letter.","Webseitencode darf nur aus Buchstaben (a-z), Nummern (0-9) oder Unterschrichen (_) bestehen. Das erste Zeichen muss ein Buchstabe sein.",,
 Warning tax discount configuration might result in different discounts than a customer might expect.,"Warnung: Steuerrabatt-Konfiguration kann zu anderen Preisnachlässen führen, als es der Kunde erwarten könnte.",,
 WARNING:,WARNUNG:,,
 "Warning: necessary space for backup is ' . . 'MB, but your free disc space is ' . . 'MB.","Achtung: Notwendiger Speicherplatz für das Backup: ' . . ' MB,  Freier Speicherplatz: ' . . ' MB",,
@@ -9535,7 +9528,7 @@ We can't delete root directory %1 right now.,Wir können das Stammverzeichnis %1
 We can't delete the address right now.,Die Adresse kann zurzeit nicht gelöscht werden.,,
 We can't delete the attribute.,Das Attribut kann nicht gelöscht werden.,,
 We can't delete the billing agreement.,Die Abrechnungsvereinbarung konnte nicht gelöscht werden.,,
-We can't delete the customer address attribute right now.,Wir können das Kundenaddressen-Attribut zur Zeit nicht löschen.,,
+We can't delete the customer address attribute right now.,Wir können das Kundenadressen-Attribut zur Zeit nicht löschen.,,
 We can't delete the form type right now.,Wir können diesen Form-Typen zur Zeit nicht löschen.,,
 We can't delete the history files right now.,Wir können die Verlaufsdateien zur Zeit nicht löschen.,,
 We can't delete the item from the Wish List right now.,Wir können den Artikel jetzt nicht vom Wunschzettel löschen.,,
@@ -9635,12 +9628,12 @@ We can't save custom-defined options for bundles with dynamic pricing.,Es könne
 "We can't save the address:
 %1","Adresse kann nicht gespeichert werden:
 %1",,
-We can't save the address:\n%1,Wir können die Addresse:\n%1 nicht speichern,module,Magento_Sales
+We can't save the address:\n%1,Wir können die Adresse:\n%1 nicht speichern,module,Magento_Sales
 We can't save the address.,Wir können die Adresse nicht speichern.,,
 We can't save the credit memo right now.,Wir können die Gutschrift jetzt nicht speichern.,,
 We can't save the Cron expression.,Der Cron-Ausdruck kann nicht gespeichert werden.,,
 We can't save the cron expression.,Der Cron-Ausdruck konnte nicht gespeichert werden.,,
-We can't save the customer address attribute right now.,Wir können das Kundenaddressen-Attribut zur Zeit nicht speichern.,,
+We can't save the customer address attribute right now.,Wir können das Kundenadressen-Attribut zur Zeit nicht speichern.,,
 We can't save the customer.,Wir können den Kunden nicht speichern.,,
 We can't save the file history file.,Wir können die Dateiverlaufs-Datei nicht speichern.,,
 We can't save the form type right now.,Wir können diesen Form-Typen zur Zeit nicht speichern.,,
@@ -9662,8 +9655,8 @@ We can't send the invoice email right now.,Wir können die Rechnung per E-Mail j
 We can't send the shipment right now.,Wir können die Sendung jetzt nicht verschicken.,,
 We can't set up a URL rewrite because the product you chose is not associated with a website.,"Wir können keinen URL-Rewrite aufsetzen, weil das Produkt, das Sie gewählt haben, nicht mit einer Website verbunden ist.",,
 We can't share customer accounts globally when the accounts share identical email addresses on more than one website.,"Wir können Kundenkonten nicht global teilen, wenn die Konten identische E-Mail-Adressen auf mehr als einer Website haben.",,
-We can't ship to this address. Please choose another address or edit the current one.,Wir können nicht an diese Addresse liefern. Bitte wählen Sie eine andere Addresse oder bearbeiten diese.,,
-We can't ship to this address. Please enter another address or edit this one.,Wir können nicht an diese Addresse liefern. Bitte geben Sie eine andere Addresse an oder bearbeiten diese.,,
+We can't ship to this address. Please choose another address or edit the current one.,Wir können nicht an diese Adresse liefern. Bitte wählen Sie eine andere Adresse oder bearbeiten diese.,,
+We can't ship to this address. Please enter another address or edit this one.,Wir können nicht an diese Adresse liefern. Bitte geben Sie eine andere Adresse an oder bearbeiten diese.,,
 We can't specify a product.,Produkt kann nicht angegeben werden.,,
 We can't specify a wish list item.,Es kann kein Wunschzettelartikel angegeben werden.,,
 We can't specify a wish list.,Wir können den Wunschzettel nicht angeben.,,
@@ -9922,7 +9915,7 @@ When passing an array of fields there must be at least one field in the array.,B
 When passing in a field array there must be a matching condition array.,Bei der Übergabe in einem Feld-Array muss ein Array mit passender Bedingung vorhanden sein.,,
 "When the adapter was changed, please flush Catalog Images Cache.","Bitte leeren Sie den Katalogbilder-Cache, wenn der Adaper geändert wird.",,
 When you enable this option your site may slow down.,"Wenn Sie diese Option aktivieren, könnte dies Ihre Seite verlangsamen.",,
-When you remove or add an attribute, we automatically update all configurations and you will need to recreate current configurations manually.,Wenn Sie ein Attribut hinzufügen oder entfernen, updaten wir automatisch alle Konfigurationen und Sie müssen die aktuelle Konfiguration erneut manuell anlegen.,module,Magento_ConfigurableProduct
+"When you remove or add an attribute, we automatically update all configurations and you will need to recreate current configurations manually.","Wenn Sie ein Attribut hinzufügen oder entfernen, updaten wir automatisch alle Konfigurationen und Sie müssen die aktuelle Konfiguration erneut manuell anlegen.",module,Magento_ConfigurableProduct
 "When you sign in to your account, you will be able to:","Wenn Sie sich mit Ihrem Konto anmelden, werden Sie in der Lage sein:",,
 "Whether to create a billing agreement, if there are no active billing agreements available.","Eine Abrechnungsvereinbarung erstellen, wenn keine aktiven Abrechnungsvereinbarungen verfügbar sind.",,
 "Whether to show ""All"" option in the ""Show X Per Page"" dropdown","""Alle""-Option im ""Zeige X pro Seite""-Dropdown anzeigen lassen",,
@@ -10025,8 +10018,9 @@ Yes/No,Ja/Nein,,
 You added %1 product to your shopping cart.,Sie haben %1 Produkt zu Ihrem Einkaufswagen hinzugefügt.,,
 You added %1 products to your shopping cart.,Sie haben %1 Produkte zu Ihrem Einkaufswagen hinzugefügt.,,
 You added %1 to your shopping cart.,Sie haben %1 zu Ihrem Warenkorb hinzugefügt.,,
-You added %1 to your <a href="%2">shopping cart</a>., Sie haben %1 zum <a href="%2">Warenkorb</a> hinzugefügt.
+"You added %1 to your <a href=""%2"">shopping cart</a>.","Sie haben %1 zum <a href=""%2"">Warenkorb</a> hinzugefügt.",,
 You added product %1 to the comparison list.,Sie haben das Produkt %1 zur Vergleichsliste hinzugefügt.,,
+"You added product %1 to the <a href=""%2"">comparison list</a>.","Sie haben das Produkt %1 zur <a href=""%2"">Vergleichsliste</a> hinzugefügt.",,
 You already have a permission with this scope.,Sie haben bereits die Berechtigungen für diesen Bereich.,,
 You already have an account with us. Sign in or continue as guest.,Sie haben bereits ein Konto bei uns. Melden Sie sich an oder fahren Sie als Gast fort.,,
 You already have an identical search term query.,Sie haben bereits eine identische Suchanfrage gestellt.,,
